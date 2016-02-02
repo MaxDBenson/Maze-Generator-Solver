@@ -1,1 +1,1 @@
-"# Maze-Generator-Solver" 
+This program consists of the Maze class, a wrapper class built around a two dimensional array of Chamber objects.  A chamber object consists of four "wall" boolean values that denote whether that chamber has a wall on the corresponding side.  The Maze constructor manipulates these values to randomly generate a maze based on width and height parameters.  The MazeFrame program solves such a maze and uses a MazeComponent object to draw the result.
